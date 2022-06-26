@@ -24,3 +24,12 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.header-container > .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
