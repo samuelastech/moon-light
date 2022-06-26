@@ -33,3 +33,27 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.header-container > .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container > .list > .item{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header-container > .list > .item > .link{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.header-container > .list > .item > .link:hover,
+.header-container > .list > .item > .link.-active{
+    background-color: #fff;
+    color: #2b1055;
+}
