@@ -10,7 +10,8 @@
 
 body{
     min-height: 100vh;
-    background: linear-gradient(#2b1055, #7597de)
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden;
 }
 
 .header-container{
@@ -70,6 +71,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    overflow: hidden;
 }
 
 .main-container::before{
@@ -104,6 +107,7 @@ body{
 
 .main-container > #title{
     position: absolute;
+    right: -350px;
     color: #fff;
     white-space: nowrap;
     font-size: 7.5vw;
