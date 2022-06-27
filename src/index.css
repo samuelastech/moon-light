@@ -109,3 +109,20 @@ body{
     z-index: 9;
     transform: translateY(100px);
 }
+
+.second-container{
+    position: relative;
+    padding: 100px;
+    background-color: #1c0522;
+}
+
+.second-container > .title{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.second-container > .paragraph{
+    font-size: 1.2em;
+    color: #fff;
+}
